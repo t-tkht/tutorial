@@ -15,6 +15,7 @@ kramdown:
   # https://github.com/jekyll/jekyll/pull/4090
   syntax_highlighter: rouge
 
+  enable_coderay: true
   coderay_line_number_start: 1
   coderay_line_numbers: true
 
