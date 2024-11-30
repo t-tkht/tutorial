@@ -3,16 +3,13 @@ safe: true
 source: /
 incremental: false
 
-markdown: kramdown
-# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
-# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
-highlighter: rouge
+gist:
+  noscript: false
 
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
 kramdown:
-  # input: GFM
-  # https://github.com/jekyll/jekyll/pull/4090
+  math_engine: mathjax
   syntax_highlighter: rouge
 
   enable_coderay: true
@@ -31,11 +28,6 @@ kramdown:
     #   line_numbers: true
     #   start_line: 1
 
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
 title: Tutorial
 description: Tutorials written by t-tkht.
 show_downloads: false
