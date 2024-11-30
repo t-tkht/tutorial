@@ -12,9 +12,9 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-  enable_coderay: true
-  coderay_line_number_start: 1
-  coderay_line_numbers: table
+  # enable_coderay: true
+  # coderay_line_number_start: 1
+  # coderay_line_numbers: table
 
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
   # span, block element options fall back to global
@@ -33,3 +33,6 @@ description: Tutorials written by t-tkht.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
+
+exclude:
+  README.md
