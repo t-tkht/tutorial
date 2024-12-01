@@ -84,6 +84,11 @@ if __name__ == '__main__':
     main()
 ```
 
+{% highlight <python> [linenos] %}
+if __name__ == '__main__':
+    main()
+{% endhighlight %}
+
 ```xml
 <?xml version="1.0"?>
 <robot name="myfirst">
