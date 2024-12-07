@@ -57,9 +57,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Tomoyuki Takahata"
+  name   : "髙畑 智之"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "東京電機大学 工学部 先端機械工学科 メカニズム研究室 教授"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
